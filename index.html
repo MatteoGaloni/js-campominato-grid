@@ -15,10 +15,26 @@
 
 <body>
     <header>
-        <div class="container text-end">
-            <h1>CAMPO MINATO</h1>
-            <button id="btn" type="button" class="btn btn-secondary">Play</button>
-        </div>
+        <div class="container text-end d-flex justify-content-between align-items-center">
+
+            <div id="left">
+                <div class="d-flex align-items-center">
+                    <img src="./img/logo copia.png" alt="logo Boolean">
+                    <h1>CAMPO MINATO</h1>
+                </div>
+            </div>
+            <div id="right">
+                <label for="menu">Difficoltà
+                    <select class="form-select" nama="menu" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">Easy</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Hard</option>
+                    </select>
+                </label>
+                <button id="btn" type="button" class="btn btn-secondary">Play</button>
+            </div>
+
     </header>
 
     <main>
@@ -29,6 +45,9 @@
     </main>
 
     <footer>
+        <div class="container d-flex justify-content-between align-items-center">
+            Made with love by Boolean
+        </div>
 
     </footer>
     <script src="./js/main.js"></script>

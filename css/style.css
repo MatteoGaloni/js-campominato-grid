@@ -22,15 +22,19 @@ h1 {
     flex-wrap: wrap;
     max-width: 1000px;
     margin: auto;
+    border: 1px solid yellow;
 }
 
 .box {
     width: calc(100% / 10);
-    height: 100px;
+    height: calc(100% / 10);
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
     border: solid 1px;
+}
 
+.selected {
+    background-color: rgb(20, 167, 220);
 }
